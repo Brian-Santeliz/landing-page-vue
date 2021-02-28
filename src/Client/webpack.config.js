@@ -33,8 +33,9 @@ module.exports = {
             loader: "file-loader",
             options: {
               name: "[name].[ext]",
-              outputPath: "images/",
+              outputPath: "img/",
               useRelativePath: true,
+              esModule: false,
             },
           },
           {
@@ -42,6 +43,23 @@ module.exports = {
             options: {
               bypassOnDebug: true,
               disable: true,
+              mozjpeg: {
+                progressive: true,
+                quality: 65,
+              },
+              optipng: {
+                enabled: true,
+              },
+              pngquant: {
+                quality: [0.65, 0.9],
+                speed: 4,
+              },
+              gifsicle: {
+                interlaced: false,
+              },
+              webp: {
+                quality: 75,
+              },
             },
           },
         ],
