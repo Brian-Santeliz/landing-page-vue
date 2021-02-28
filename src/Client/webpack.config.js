@@ -27,6 +27,26 @@ module.exports = {
         loader: "vue-loader",
       },
       {
+        test: /\.(gif|png|jpe?g|svg)$/i,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]",
+              outputPath: "images/",
+              useRelativePath: true,
+            },
+          },
+          {
+            loader: "image-webpack-loader",
+            options: {
+              bypassOnDebug: true,
+              disable: true,
+            },
+          },
+        ],
+      },
+      {
         test: /\.css$/i,
         use: [
           { loader: MiniCssExtractPlugin.loader },
