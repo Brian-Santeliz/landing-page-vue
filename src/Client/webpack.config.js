@@ -41,7 +41,7 @@ module.exports = {
       template: "./src/Client/public/index.html",
     }),
     new MiniCssExtractPlugin({
-      filename: "css/estilos.css",
+      filename: "css/style.css",
     }),
   ],
 };
