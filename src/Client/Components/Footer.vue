@@ -7,9 +7,10 @@
       </div>
       <nav>
         <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="features.html">Servicios</a></li>
-          <li><a href="docs.html">Aprende</a></li>
+          <li><router-link to="/">Inicio</router-link></li>
+          <li><router-link to="/services">Servicios</router-link></li>
+          <li><router-link to="/learn">Aprende</router-link></li>
+          <li><router-link to="/about">Nosotros</router-link></li>
         </ul>
       </nav>
       <div class="social">

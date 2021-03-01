@@ -4,9 +4,10 @@
       <h1 class="logo">Roque Tech.</h1>
       <nav>
         <ul>
-          <li><router-link to="/home">Inicio</router-link></li>
+          <li><router-link to="/">Inicio</router-link></li>
           <li><router-link to="/services">Servicios</router-link></li>
-          <li><router-link to="/">Aprender</router-link></li>
+          <li><router-link to="/learn">Aprender</router-link></li>
+          <li><router-link to="/about">Nosotros</router-link></li>
         </ul>
       </nav>
     </div>
