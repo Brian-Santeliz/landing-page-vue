@@ -4,7 +4,7 @@
   "description": "landing-page-vuejs",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon src/Server/main.js",
+    "server": "nodemon src/Server/server.js",
     "client": "webpack --mode production --config src/Client/webpack.config.js",
     "dev:client": "webpack serve --mode development --open  --config src/Client/webpack.config.js"
   },
@@ -20,7 +20,6 @@
     "@babel/preset-env": "^7.12.13",
     "@babel/runtime": "^7.12.13",
     "babel-loader": "^8.2.2",
-    "cors": "^2.8.5",
     "css-loader": "^5.0.1",
     "express": "^4.17.1",
     "file-loader": "^6.2.0",

@@ -1,6 +1,5 @@
 const express = require("express");
 const morgan = require("morgan");
-const cors = require("cors");
 const path = require("path");
 const database = require("./Database/connection");
 const router = require("./Router/router");
@@ -8,7 +7,6 @@ const server = express();
 
 server.set("puerto", 4040);
 server.use(morgan("dev"));
-server.use(cors());
 server.use(express.static(path.join(__dirname, "/public")));
 server.use(express.json());
 server.use("/api", router);
