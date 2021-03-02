@@ -2,42 +2,26 @@
   <section class="showcase">
     <div class="container grid">
       <div class="showcase-text">
-        <h1>Easier Deployment</h1>
+        <h1>Soluciones modernas para problemas modernos</h1>
         <p>
           Deploy web apps of all kinds, from large scale enterprise APIs to
           static websites for individuals. Fill out the form to try a demo of
           our platform
         </p>
         <router-link to="/services" class="btn btn-outline"
-          >Servicios</router-link
+          >Ver Servicios</router-link
         >
       </div>
 
       <div class="showcase-form card">
-        <h2>Request a Demo</h2>
-        <form
-          @submit.prevent="Submit"
-          name="contact"
-          netlify-honeypot="bot-field"
-          method="POST"
-        >
-          <input
-            v-model.trim="contact.name"
-            type="hidden"
-            name="form-name"
-            value="contact"
-          />
-          <p class="hidden">
-            <label
-              >Don’t fill this out if you're human: <input name="bot-field"
-            /></label>
-          </p>
+        <h2>Contáctanos</h2>
+        <form @submit.prevent="Submit" method="POST">
           <div class="form-control">
             <input
               v-model.trim="contact.name"
               type="text"
               name="name"
-              placeholder="Name"
+              placeholder="Escribe Tu Nombre"
               required
             />
           </div>
@@ -46,7 +30,7 @@
               v-model.trim="contact.company"
               type="text"
               name="company"
-              placeholder="Company Name"
+              placeholder="Nombre De Tu Empresa"
               required
             />
           </div>
@@ -55,11 +39,11 @@
               v-model.trim="contact.email"
               type="email"
               name="email"
-              placeholder="Email"
+              placeholder="correo@email.com"
               required
             />
           </div>
-          <input type="submit" value="Send" class="btn btn-primary" />
+          <input type="submit" value="Unirme" class="btn btn-primary" />
         </form>
       </div>
     </div>
