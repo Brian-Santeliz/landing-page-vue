@@ -1,7 +1,7 @@
 <template>
-  <section class="showcase">
+  <section class="home">
     <div class="container grid">
-      <div class="showcase-text">
+      <div class="home-text">
         <h1>Soluciones modernas para problemas modernos</h1>
         <p>
           Roque tech es una empresa dedicada a simplificar tus problemas, es por
@@ -12,7 +12,7 @@
         >
       </div>
 
-      <div class="showcase-form card">
+      <div class="home-form card">
         <h2>Contáctanos</h2>
         <form @submit.prevent="Submit" method="POST">
           <div class="form-control">

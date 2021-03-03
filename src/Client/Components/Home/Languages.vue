@@ -1,5 +1,5 @@
 <template>
-  <section class="languages">
+  <section class="lenguajes">
     <h2 class="md text-center my-2">Lenguajes soportados</h2>
     <div class="container flex">
       <div class="card">

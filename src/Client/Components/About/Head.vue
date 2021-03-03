@@ -2,9 +2,9 @@
   <section class="servicios-head bg-primary py-3">
     <div class="container grid">
       <div>
-        <h1 class="xl">Servicios</h1>
+        <h1 class="xl">Nosotros</h1>
         <p class="lead">
-          En Roque Tech innovamos constantemente para tu mayor comodidad.
+          Conoce más de nuestra historia, principios y recorrido como empresa.
         </p>
       </div>
       <img src="../../public/img/server.png" alt="" />
@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: "Hero",
+  nam: "About",
 };
 </script>
 

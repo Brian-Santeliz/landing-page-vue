@@ -1,5 +1,5 @@
 <template>
-  <section class="cli">
+  <section class="roque-tech">
     <div class="container grid">
       <img src="../../public/img/code.png" alt="" />
       <div class="card">

@@ -1,7 +1,7 @@
 {
-  "name": "landing-page",
+  "name": "roque-tech",
   "version": "1.0.0",
-  "description": "landing-page-vuejs",
+  "description": "roque-tech-vuejs",
   "main": "index.js",
   "scripts": {
     "server": "nodemon src/Server/server.js",

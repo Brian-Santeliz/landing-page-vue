@@ -1,5 +1,5 @@
 <template>
-  <section class="features-main my-2">
+  <section class="servicios-main my-2">
     <div class="container grid grid-3">
       <div class="card flex">
         <i class="fas fa-server fa-3x"></i>
@@ -52,7 +52,7 @@
 
 <script>
 export default {
-  name: "Features",
+  name: "servicios",
 };
 </script>
 

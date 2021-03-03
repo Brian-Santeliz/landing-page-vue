@@ -1,5 +1,5 @@
 <template>
-  <section class="cloud bg-primary my-2 py-2">
+  <section class="nube bg-primary my-2 py-2">
     <div class="container grid">
       <div class="text-center">
         <h2 class="lg">Despligue continuó en la nube</h2>

@@ -1,5 +1,5 @@
 <template>
-  <section class="features-sub-head bg-light py-3">
+  <section class="servicios-sub-head bg-light py-3">
     <div class="container grid">
       <div>
         <h1 class="md">Características Destacadas</h1>

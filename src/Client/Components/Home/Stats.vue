@@ -1,7 +1,7 @@
 <template>
-  <section class="stats">
+  <section class="estadisticas">
     <div class="container">
-      <h3 class="stats-heading text-center my-1">
+      <h3 class="estadisticas-heading text-center my-1">
         Contamos con Los mejores servidores, 100% optimizados para que tú página
         siempre se encuentre disponible.
       </h3>
