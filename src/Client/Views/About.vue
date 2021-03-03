@@ -5,8 +5,7 @@
         <div>
           <h1 class="xl">Nosotros</h1>
           <p class="lead">
-            Check out the features of Loruki that separate us from the
-            competition
+            Conoce más de nuestra historia, principios y recorrido como empresa.
           </p>
         </div>
         <img src="../public/img/server.png" alt="" />
@@ -15,40 +14,26 @@
     <section class="features-sub-head bg-light py-3">
       <div class="container grid">
         <div>
-          <h1 class="md">The Loruki Platform</h1>
+          <h1 class="md">Principios & Misión</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
-            cupiditate dignissimos temporibus perspiciatis quae! Suscipit qui,
-            consectetur ea consequatur, doloribus repellendus quasi, aut
-            corporis nam alias culpa. Nostrum, inventore accusantium!
+            Roque tech es una empresa dedicada a simplificar tus problemas, es
+            por ellos que te ayudamos con el alojamiento de tu página web.
+            Contamos con Los mejores servidores, 100% optimizados para que tú
+            página siempre se encuentre disponible.
           </p>
         </div>
         <img src="../public/img/server2.png" alt="" />
       </div>
     </section>
+
     <section class="features-sub-head bg-light py-3">
       <div class="container grid">
         <div>
-          <img src="../public/img/server2.png" alt="" />
-          <h1 class="md">The Loruki Platform</h1>
+          <h1 class="md">Experiencia & Historia</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
-            cupiditate dignissimos temporibus perspiciatis quae! Suscipit qui,
-            consectetur ea consequatur, doloribus repellendus quasi, aut
-            corporis nam alias culpa. Nostrum, inventore accusantium!
-          </p>
-        </div>
-      </div>
-    </section>
-    <section class="features-sub-head bg-light py-3">
-      <div class="container grid">
-        <div>
-          <h1 class="md">The Loruki Platform</h1>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
-            cupiditate dignissimos temporibus perspiciatis quae! Suscipit qui,
-            consectetur ea consequatur, doloribus repellendus quasi, aut
-            corporis nam alias culpa. Nostrum, inventore accusantium!
+            Tenemos más de 10 años de experiencia en el mercado y más de 1000
+            personas que al igual que tú buscaban la solución a su problema y en
+            Roquetech encontraron el mejor servicio
           </p>
         </div>
         <img src="../public/img/server2.png" alt="" />

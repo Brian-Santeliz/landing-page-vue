@@ -1,12 +1,15 @@
 <template>
   <section class="cli">
     <div class="container grid">
-      <img src="../../public/img/cli.png" alt="" />
+      <img src="../../public/img/code.png" alt="" />
       <div class="card">
-        <h3>Easy to use, cross platform CLI</h3>
+        <h3>Nos adaptamos a ti y a la tecnología.</h3>
       </div>
       <div class="card">
-        <h3>Deploy in seconds</h3>
+        <h3>
+          Usa nuestra ultimas herramienta de comando para que el deploy sea mas
+          cómodo.
+        </h3>
       </div>
     </div>
   </section>

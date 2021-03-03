@@ -3,8 +3,11 @@
     <section class="docs-head bg-primary py-3">
       <div class="container grid">
         <div>
-          <h1 class="xl">Docs</h1>
-          <p class="lead">Learn how to work with the Loruki platform</p>
+          <h1 class="xl">Aprende a usar Roque Tech</h1>
+          <p class="lead">
+            Aprender y enseñar nos encanta, esta es la introducción a nuestra
+            herramienta
+          </p>
         </div>
         <img src="../public/img/docs.png" alt="" />
       </div>
@@ -13,59 +16,67 @@
     <section class="docs-main my-4">
       <div class="container grid">
         <div class="card bg-light p-3">
-          <h3 class="my-2">Essentials</h3>
+          <h3 class="my-2">Basicos</h3>
           <nav>
             <ul>
-              <li><a class="text-primary" href="#">Introduction</a></li>
-              <li><a href="#">About Loruki</a></li>
-              <li><a href="#">Installation</a></li>
+              <li>
+                <router-link class="text-primary" to="#">Inicio</router-link>
+              </li>
+              <li><router-link to="/about">Nosotros</router-link></li>
+              <li><router-link to="/">Lenguajes Soportados</router-link></li>
             </ul>
           </nav>
 
-          <h3 class="my-2">Deployment</h3>
+          <h3 class="my-2">Servicios</h3>
           <nav>
             <ul>
-              <li><a href="#">Setting up a container</a></li>
-              <li><a href="#">Using the CLI</a></li>
-              <li><a href="#">Managing resources</a></li>
-              <li><a href="#">Upgrade & downgrade</a></li>
+              <li>
+                <router-link to="/services">Base de datos</router-link>
+              </li>
+              <li><router-link to="/services">Acceso</router-link></li>
+              <li>
+                <router-link to="/services">Subida de archivos</router-link>
+              </li>
+              <li>
+                <router-link to="/services">Servidores cloud</router-link>
+              </li>
             </ul>
           </nav>
         </div>
         <div class="card">
-          <h2>Introduction</h2>
+          <h2>Empieza a usar Roque Tech</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-            illo facere perferendis laborum? Similique recusandae incidunt eos
-            dolorum aliquam ipsam unde perspiciatis laudantium totam quam
-            laborum velit, at maxime minus?
+            Nuestro objetivo es que te familiarices con nuestra plataforma para
+            que puedas usarla perfectamente e integrarla muy bien a tus
+            proyectos. Empieza con nuestras herramienta de comando para que te
+            conviertas un experto en Roque tech
           </p>
 
           <div class="alert alert-success">
-            <i class="fas fa-info"></i> Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Quae, animi?
+            <i class="fas fa-info"></i> Recomendanmos que estes familiarizado
+            con la consola o terminal para ejecutar los scripts correctamente.
           </div>
 
-          <h3>Lorem, ipsum dolor.</h3>
+          <h3>¡Apoyo!</h3>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima
-            totam magni eius vitae velit id, atque veritatis! At, vero porro.
+            Estaremos atentos a responder cualquier duda y solucionar cualquier
+            percance que te surja durante el tiempo que estés en Roque tech.
           </p>
-          <a href="#" class="btn btn-primary">Install CLI</a>
+          <router-link to="/" class="btn btn-primary">Contáctanos</router-link>
 
-          <h3>Requirements</h3>
+          <h3>¿Qué necesitas?</h3>
           <ul>
-            <li>Windows 10, Mac OSX, Linux</li>
-            <li>Node.js v12 or higher</li>
+            <li>Sistema operativo: Windows 10, Mac OSX o Linux</li>
+            <li>Versión de Nodejs 12 o superior.</li>
           </ul>
 
-          <h3>Install</h3>
+          <h3>Para instalarlo segun tu sistema gestor de paquetes</h3>
           <p>Mac (Homebrew)</p>
-          <pre><code>$ brew install loruki-cli</code></pre>
+          <pre><code>$ brew install roque-tech</code></pre>
           <p>NPM</p>
-          <pre><code>$ npm install loruki-cli</code></pre>
+          <pre><code>$ npm install -g roque-tech</code></pre>
           <p>Yarn</p>
-          <pre><code>$ yarn install loruki-cli</code></pre>
+          <pre><code>$ yarn install -g roque-tech</code></pre>
         </div>
       </div>
     </section>

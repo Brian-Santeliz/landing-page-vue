@@ -4,7 +4,7 @@
       <div>
         <h1 class="xl">Servicios</h1>
         <p class="lead">
-          Check out the features of Loruki that separate us from the competition
+          En Roque Tech innovamos constantemente para tu mayor comodidad.
         </p>
       </div>
       <img src="../../public/img/server.png" alt="" />

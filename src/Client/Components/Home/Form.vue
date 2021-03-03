@@ -4,9 +4,8 @@
       <div class="showcase-text">
         <h1>Soluciones modernas para problemas modernos</h1>
         <p>
-          Deploy web apps of all kinds, from large scale enterprise APIs to
-          static websites for individuals. Fill out the form to try a demo of
-          our platform
+          Roque tech es una empresa dedicada a simplificar tus problemas, es por
+          ellos que te ayudamos con el alojamiento de tu página web.
         </p>
         <router-link to="/services" class="btn btn-outline"
           >Ver Servicios</router-link
