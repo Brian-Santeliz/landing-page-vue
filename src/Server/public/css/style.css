@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap);
 :root {
   --azulClaro: #19358f;
   --azulOscuro: #1c3fa8;
@@ -344,24 +343,6 @@ pre {
   -ms-transform: skewY(-3deg);
 }
 
-.estadisticas {
-  padding-top: 100px;
-  animation: slideInFromBottom 1s ease-in;
-}
-
-.estadisticas-heading {
-  max-width: 500px;
-  margin: auto;
-}
-
-.estadisticas .grid h3 {
-  font-size: 35px;
-}
-
-.estadisticas .grid p {
-  font-size: 20px;
-  font-weight: bold;
-}
 .nube {
   padding-top: 100px;
   animation: desplazamientoAbajo 1s ease-in;
@@ -510,7 +491,6 @@ pre {
   .grid,
   .home .grid,
   .nube .grid,
-  .estadisticas .grid,
   .roque-tech .grid,
   .nube .grid,
   .servicios-main .grid,
@@ -557,4 +537,5 @@ pre {
     grid-column: 1;
   }
 }
+
 

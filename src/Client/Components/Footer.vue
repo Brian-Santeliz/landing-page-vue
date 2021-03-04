@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer bg-dark py-5">
+  <footer class="footer bg-dark py-2">
     <div class="container grid grid-3">
       <div>
         <h1>Roque Tech</h1>

@@ -6,7 +6,7 @@ const post = async (req, res) => {
       "INSERT INTO contact (name, company, email) VALUES (?, ? , ?)",
       [name, company, email]
     );
-    res.status(201).json("Mensaje recibido en la base de datos.");
+    res.status(201).json("Mensaje recibido gracias por contáctarnos.");
   } catch (error) {
     res.status(500).json(error);
   }
