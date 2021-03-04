@@ -2,9 +2,9 @@
   <section class="home">
     <div class="container grid">
       <div class="home-text">
-        <h1>Soluciones modernas para problemas modernos</h1>
+        <h1>Soluciones modernas para problemas de software</h1>
         <p>
-          Roque tech es una empresa dedicada a simplificar tus problemas, es por
+          Roque Tech es una empresa dedicada a simplificar tus problemas, es por
           ellos que te ayudamos con el alojamiento de tu página web.
         </p>
         <router-link to="/services" class="btn btn-outline"

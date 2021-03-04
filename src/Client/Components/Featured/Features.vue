@@ -14,8 +14,8 @@
       <div class="card flex">
         <i class="fas fa-network-wired fa-3x"></i>
         <p>
-          Servidores descentralizados, sin problemas de concurrencia ni una
-          rango alto de bandwidth. Totalmente accesibles y económicos.
+          Servidores descentralizados, sin problemas de concurrencia ni un rango
+          alto de bandwidth. Totalmente accesibles y económicos.
         </p>
       </div>
 
@@ -42,7 +42,7 @@
       <div class="card flex">
         <i class="fas fa-upload fa-3x"></i>
         <p>
-          Roque tech te ofrece el servicio perfecto para que subas todas las
+          Roque Tech te ofrece el servicio perfecto para que subas todas las
           imágenes que necesites sin que tú proyecto se sobre cargue.
         </p>
       </div>

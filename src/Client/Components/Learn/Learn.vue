@@ -35,18 +35,18 @@
           Nuestro objetivo es que te familiarices con nuestra plataforma para
           que puedas usarla perfectamente e integrarla muy bien a tus proyectos.
           Empieza con nuestras herramienta de comando para que te conviertas un
-          experto en Roque tech
+          experto en Roque Tech
         </p>
 
         <div class="alert alert-success">
-          <i class="fas fa-info"></i> Recomendanmos que estes familiarizado con
+          <i class="fas fa-info"></i> Recomendamos que estes familiarizado con
           la consola o terminal para ejecutar los scripts correctamente.
         </div>
 
         <h3>¡Apoyo!</h3>
         <p>
           Estaremos atentos a responder cualquier duda y solucionar cualquier
-          percance que te surja durante el tiempo que estés en Roque tech.
+          percance que te surja durante el tiempo que estés en Roque Tech.
         </p>
         <router-link to="/" class="btn btn-primary">Contáctanos</router-link>
 
@@ -56,7 +56,7 @@
           <li>Versión de Nodejs 12 o superior.</li>
         </ul>
 
-        <h3>Para instalarlo segun tu sistema gestor de paquetes</h3>
+        <h3>Para instalarlo según tu sistema y gestor de paquetes</h3>
         <p>Mac (Homebrew)</p>
         <pre><code>$ brew install roque-tech</code></pre>
         <p>NPM</p>

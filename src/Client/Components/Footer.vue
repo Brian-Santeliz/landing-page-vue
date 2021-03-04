@@ -3,7 +3,7 @@
     <div class="container grid grid-3">
       <div>
         <h1>Roque Tech</h1>
-        <p>Copyright &copy; 2020</p>
+        <p>Copyright &copy; {{ new Date().getFullYear() }}</p>
       </div>
       <nav>
         <ul>
@@ -14,18 +14,10 @@
         </ul>
       </nav>
       <div class="social">
-        <a href="https://roquetech.com" target="__blank"
-          ><i class="fab fa-github fa-2x"></i
-        ></a>
-        <a href="https://roquetech.com" target="__blank"
-          ><i class="fab fa-facebook fa-2x"></i
-        ></a>
-        <a href="https://roquetech.com" target="__blank"
-          ><i class="fab fa-instagram fa-2x"></i
-        ></a>
-        <a href="https://roquetech.com" target="__blank"
-          ><i class="fab fa-twitter fa-2x"></i
-        ></a>
+        <a href="#" target="__blank"><i class="fab fa-github fa-2x"></i></a>
+        <a href="#" target="__blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#" target="__blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#" target="__blank"><i class="fab fa-twitter fa-2x"></i></a>
       </div>
     </div>
   </footer>

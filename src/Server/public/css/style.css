@@ -343,6 +343,24 @@ pre {
   -ms-transform: skewY(-3deg);
 }
 
+.estadisticas {
+  padding-top: 100px;
+  animation: slideInFromBottom 1s ease-in;
+}
+
+.estadisticas-heading {
+  max-width: 500px;
+  margin: auto;
+}
+
+.estadisticas .grid h3 {
+  font-size: 35px;
+}
+
+.estadisticas .grid p {
+  font-size: 20px;
+  font-weight: bold;
+}
 .nube {
   padding-top: 100px;
   animation: desplazamientoAbajo 1s ease-in;
@@ -491,6 +509,7 @@ pre {
   .grid,
   .home .grid,
   .nube .grid,
+  .estadisticas .grid,
   .roque-tech .grid,
   .nube .grid,
   .servicios-main .grid,
@@ -537,5 +556,3 @@ pre {
     grid-column: 1;
   }
 }
-
-

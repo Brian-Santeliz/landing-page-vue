@@ -5,7 +5,7 @@
         <h1 class="xl">Aprende a usar Roque Tech</h1>
         <p class="lead">
           Aprender y enseñar nos encanta, esta es la introducción a nuestra
-          herramienta
+          herramienta.
         </p>
       </div>
       <img src="../../public/img/docs.png" alt="" />
