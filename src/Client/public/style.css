@@ -233,7 +233,9 @@ pre {
 .py-2 {
   padding: 1.5rem 0;
 }
-
+.border-radius{
+  border-radius: 1rem;
+}
 .navbar {
   background-color: var(--azulClaro);
   color: #fff;

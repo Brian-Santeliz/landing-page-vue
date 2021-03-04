@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="servicios-sub-head bg-light py-3">
+    <section class="servicios-sub-head bg-light py-3 m-5">
       <div class="container grid">
         <div>
           <h1 class="md">Principios & Misión</h1>
@@ -11,11 +11,15 @@
             página siempre se encuentre disponible.
           </p>
         </div>
-        <img src="../../public/img/server2.png" alt="" />
+        <img
+          src="../../public/img/cable.jpg"
+          class="py-2 border-radius"
+          alt="about-roque"
+        />
       </div>
     </section>
 
-    <section class="servicios-sub-head bg-light py-3">
+    <section class="servicios-sub-head bg-light py-3 m-5">
       <div class="container grid">
         <div>
           <h1 class="md">Experiencia & Historia</h1>
@@ -25,7 +29,11 @@
             Roquetech encontraron el mejor servicio
           </p>
         </div>
-        <img src="../../public/img/server2.png" alt="" />
+        <img
+          src="../../public/img/roque-tech.jpg"
+          alt="about-roque"
+          class="py-2 border-radius"
+        />
       </div>
     </section>
   </div>
